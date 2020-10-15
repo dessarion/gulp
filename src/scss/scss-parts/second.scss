@@ -1,0 +1,14 @@
+@mixin italic {
+  font-style: italic;  
+}
+
+h1{
+  @include italic();
+  color: #ffffff; 
+}
+
+@media (max-width: 800px) {
+  body{
+    background-color: #fff;
+  }
+}

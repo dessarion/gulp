@@ -1,7 +1,10 @@
-
+@import 'scss-parts/second';
 $bacground-color: #ccc;
 
 body{
   background-color: $bacground-color;
   display: flex;
+  @media (max-width: 800px) {
+    display: block;
+  }
 }

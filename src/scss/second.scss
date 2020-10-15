@@ -1,8 +1,0 @@
-@mixin italic {
-  font-style: italic;  
-}
-
-h1{
-  @include italic();
-  color: #3d3d3d;
-}
